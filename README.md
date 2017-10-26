@@ -1,1 +1,0 @@
-# terraform-sentinel-poc
