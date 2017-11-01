@@ -11,6 +11,5 @@ resource "aws_instance" "example" {
   key_name      = "kkb-Linux-keypair"
   tags {
     Name  = "kkb-terraform-test"
-    Owner = "KKB"
   }
 }
