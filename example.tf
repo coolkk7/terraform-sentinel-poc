@@ -9,8 +9,4 @@ resource "aws_instance" "example" {
   ami           = "ami-8c1be5f6"
   instance_type = "t2.micro"
   key_name      = "kkb-Linux-keypair"
-  tags {
-    Name  = "kkb-terraform-test"
-    Owner = "KKB"
-  }
 }
